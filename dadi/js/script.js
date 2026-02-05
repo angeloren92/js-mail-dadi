@@ -12,7 +12,6 @@
     Visualizziamo le due variabili, specificando a chi è assegnato il numero vincente con relativo messaggio
 
 Tools
--prompt
 -variabili numeriche e stringhe per i messaggi
 -libreria math con metodi floor e random
 -istruzioni IF ELSE per determinare il numero maggiore
