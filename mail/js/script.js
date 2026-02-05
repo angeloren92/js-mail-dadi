@@ -42,7 +42,7 @@ const DBinvitati = [
 // Primo messaggio è dare indicazioni all'utente quando acquisiamo l'email
 let message = 'Per favore inserisci la tua email, in minuscolo con formato: esempio@email.com ';
 // Dichiariamo una costante globale dove andiamo ad acquisire il valore da ricercare dall'utente
-const inputEmail = prompt(message);
+const inputEmail = prompt(message).toLowerCase();
 //dichiariamo una variabile primitiva booleana perchè ne abbiamo bisogno solo per fermare l'iterazione non appena trova l'email
 let emailFound = false;
 
