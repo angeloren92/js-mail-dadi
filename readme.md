@@ -28,3 +28,35 @@ torniamo a scrivere in italiano
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 Buon  divertimento! e confermate lettura :babyyoda: 
+*********************************************************************************************************************
+
+Le Memorie di Angelo [05.02.2026]
+
+    Mattina:
+    -Correzione esercizi del giorno prima
+    -Introduzione agli esercizi JSsnaks per un ripasso generale
+        .Snack-1 dichiariamo 2 variabili e chiediamo all'utente di assegnare due valori numerici
+            Utilizzando le istruzioni IF ELSE andiamo a definire con delle condizioni,
+            SE il primo numero è maggiore del secondo o viceversa
+            ALTRIMENTI significa che i numeri sono uguali
+        Visualizziamo su console il numero maggiore
+        .Snack-2 dichiariamo due variabili e chiediamo all'utente di assegnare due valori di stringa
+            andiamo ad estrapolare la lunghezza delle stringhe e le mettiamo a confronto
+            IF e ELSE per determinare quale sia la parola più corta e quale più lunga
+            Visualizziamo in console prima la parola corta e poi quella più lunga
+            Anche in questo caso verifichiamo anche se le due parole hanno la stessa lunghezza
+        .Snack-3 Iteriamo l'istruzione for 10 volte
+            ad ogni iterazione chiediamo all'utente di inserire un valore numerico
+            che verrà assegnata ad una variabile block scope e sommata dentro ad una variabile globale
+            terminate le 10 iterazioni, visualizziamo in console la somma dei 10 numeri inseriti
+            (in questo caso importante la distinzione tra variabile globale e di blocco)
+        .Snack-4 dichiariamo un array globale vuoto, a seguire instruzione for con 6 iterazioni
+            dove dichiariamo una variabile block scope e chiediamo all'utente di assegnare un valore numerico
+            Filtriamo con IF i numeri dispari, dividendo il valore immesso per due con resto(%modulo) diverso da 0
+            se è vero lo si inserisce nell'array globale usando array.metodo() in questo caso .push
+            anche in questo caso variabile globale ha una visibilità "globale"
+            rispetto a quello block scope che è visualizzabile solo dentro il ciclo 
+            ma che abbiamo utilizzato all'interno del ciclo per restituire il valore da aggiungere come elemento di un array globale.
+
+    Pomeriggio:
+     

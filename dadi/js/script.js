@@ -40,4 +40,3 @@ console.log(
     Il tuo Numero: ${numPlayer} 
     Il numero del Computer: ${numComputer}`
 );
-
