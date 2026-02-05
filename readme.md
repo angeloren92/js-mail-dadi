@@ -59,4 +59,15 @@ Le Memorie di Angelo [05.02.2026]
             ma che abbiamo utilizzato all'interno del ciclo per restituire il valore da aggiungere come elemento di un array globale.
 
     Pomeriggio:
-     
+    -Consolidamento analisi ed elaborazione degli argomenti trattati finora
+        .MAIL combinazione di due condizioni, dentro all'istruzione di ciclo, unite con i 
+            connettori logici per interrompere un ciclo quando viene soddisfatta la ricerca
+            senza aspettare che compia tutte le iterazioni dettate del contatore
+            In questo caso è come se avessimo creato un mico "Database" dove siamo andati a cercare la chiave d'accesso
+        .DADI Imparato ad utilizzare 2 metodi della libreria Math, per generare numeri randomici
+            -.floor per arrontodare a numero intero
+            -.random per generare un numero randomico da 0 a 1(escluso), manipolabile grazie alle 
+                operazioni matematiche per scegliere l'intervallo numerico
+            In questa maniera abbiamo creato un gioco di dadi randomico player vs computer
+        (Ricorda che il gioco è vietato ai minori di 18 anni e crea grave dipendenza. Il banco vince sempre)        
+    
