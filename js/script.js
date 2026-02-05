@@ -1,8 +1,6 @@
-console.log('test');
-
 // Traccia Email
 /* 
--Abbiamo bisogno di un array che abbiamo come elementi le email degli invitati
+-Abbiamo bisogno di un array con n. elementi contenenti le email degli invitati
 -Dobbiamo richiedere l'utente di inserire l'email
 -Dobbiamo dare l'istruzione di un ciclo che continua ad iterare con delle condizioni
     .una condizione può essere che la lunghezza dell'array definisce il numero di iterazioni
@@ -26,3 +24,26 @@ tools:
 -valori booleani
 -console.log
 */
+
+// Dichiarazione delle variabili in global scope, dovre creiamo un 'database' di invitati
+const DBinvitati = [
+    'angelo.ren@gmail.com',
+    'angelo.ren@yahoo.com',
+    'angelo.ren@hotmail.com',
+    'angelo.ren@pec.com',
+    'angelo.ren@alice.it',
+    'angelo.ren@fendi.com',
+    'angelo.ren@alexandermcqueen.com',
+    'angelo.ren@off---white.it',
+    'angelo.ren@frette.it',
+    'angelo.ren@collegiove.ri',
+]
+// Dichiariamo questa variabile globale che possa contenere i messaggi da visualizzare
+// Primo messaggio è dare indicazioni all'utente quando acquisiamo l'email
+let message = 'Per favore inserisci la tua email, in minuscolo con formato: esempio@email.com ';
+// Dichiariamo una costante globale dove andiamo ad acquisire il valore da ricercare dall'utente
+const inputEmail = prompt(message);
+
+//
+
+
