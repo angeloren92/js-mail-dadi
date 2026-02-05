@@ -44,6 +44,18 @@ let message = 'Per favore inserisci la tua email, in minuscolo con formato: esem
 // Dichiariamo una costante globale dove andiamo ad acquisire il valore da ricercare dall'utente
 const inputEmail = prompt(message);
 
-//
-
+// Diamo l'istruzione di iterare tante volte quanto è la lunghezza del DB,
+// ***dopo aggiungere connettore logico per trovare il valore booleano e stoppare quando si trova il valore ***
+for (let i = 0; i < DBinvitati.length; i++) {
+    //usiamo l'istruzione if per filtrare il DB e ricercare il valore che ha inserito l'utente
+    if (inputEmail == DBinvitati[i]) { 
+        //cambiamo messaggio da visualizzare se l'esito è positivo
+        message = 'OK! Sei un invitato, Benvenuto!';
+    } else {
+        //cambiamo messaggio da visualizzare se l'esito è positivo
+        message = 'Mi dispiace, non sei stati invitato... sarà la prossima volta!';
+    }
+}
+//problema di visualizzazione, la variabile continua a cambiare perchè non ho inserito il blocco quando vero
+console.log(message);
 
